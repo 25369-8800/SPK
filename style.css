@@ -136,6 +136,10 @@ nav ul li a img{
 #sociaux ul li a{
     color: #C76C36;
 }
+
+#sociaux ul li{
+    text-transform: uppercase;
+}
 /*hover icônes */
 #sociaux ul i:hover{
     color: #8A3A89;
