@@ -1,4 +1,11 @@
 
+/* background image body */
+body{
+    background-image: url(/Assets/Images/background.svg);
+    background-size: 1250px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
 /* mise en place de la nav */
 nav{
     width: 100%;
@@ -120,6 +127,8 @@ nav ul li a img{
     margin: auto;
 }
 
+/* réalisation du hover sur la barre de droite */
 #psuiv:hover{
     height: 12vh;
+    background-color: #C76C36;
 }
