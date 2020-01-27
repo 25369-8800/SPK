@@ -150,7 +150,7 @@ aside#psuiv{
 
 #psuiv{
     background-color: #8A3A89;  
-    width: 7%;
+    width: 6%;
     position: absolute;
     bottom: 0;
     transition-duration: 1s;
@@ -174,5 +174,5 @@ aside#psuiv{
 /* réalisation du hover sur la barre de droite */
 #psuiv:hover{
     background-color: #C76C36;
-    width: 9%;
+    width: 8%;
 }
