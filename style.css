@@ -1,10 +1,18 @@
 
 /* background image body */
+html{
+    height: 100vh;
+}
 body{
     background-image: url(/Assets/Images/background.svg);
     background-size: 1800px;
     background-position: top;
     background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+main{
+    height: 100vh;
 }
 /* mise en place de la nav */
 nav{
@@ -55,7 +63,7 @@ nav ul li a img{
 #bmenu{
     border: 3px solid #8A3A89;
     padding: 1%;
-    border-radius: 100%;
+    border-radius: 100px;
 }
 
 #bmenu a{
@@ -67,21 +75,58 @@ nav ul li a img{
     color: #8A3A89;
 }
 
+/*hover bmenu */
+#bmenu:hover{
+    background-color: #C76C36;
+    border: #C76C36;
+}
+
+#bmenu:hover a{
+    color: white;
+}
+
+#bmenu:hover a i{
+    color: white;
+}
+
+/* texte de présentation */
+#présentation{
+    margin-top: 10%;
+}
+#présentation h1{
+    font-size: 40px;
+    color: #C76C36;
+    width: 50%;
+    margin: auto;
+}
+
+#présentation h2{
+    font-size: 30px;
+    width: 50%;
+    margin: auto;
+}
+
+#présentation p{
+    width: 50%;
+    margin: auto;
+}
 /* mise en place de la navigation sociaux */
+
 #sociaux {
-    width: 10%;
-    height: 100%;
+    width: 15%;
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
 }
 #sociaux ul{
+    width: 100%;
     display: flex;
-    width: 20%;
     justify-content: space-around;
     font-size: 25px;
     list-style: none;
     transform: rotate(270deg);
     position: absolute;
-    bottom: 0;
-    margin-bottom: 10%;
+    bottom: 20%;
 }
 
 #sociaux ul i{
@@ -90,7 +135,6 @@ nav ul li a img{
 
 #sociaux ul li a{
     color: #C76C36;
-    margin-left: 50%;
 }
 /*hover icônes */
 #sociaux ul i:hover{
@@ -98,37 +142,37 @@ nav ul li a img{
 }
 
 /* barre de nav à droite */
+aside#psuiv{
+    height: 100vh;
+    position: absolute;
+    right: 0;;
+}
+
 #psuiv{
     background-color: #8A3A89;  
-    transform: rotate(270deg);
-    position: relative;
-    left: 50%;
-    width: 100%;
-    height: 10vh;
+    width: 7%;
+    position: absolute;
+    bottom: 0;
     transition-duration: 1s;
 }
 
 #psuiv li{
-    text-align: center;
+    position: absolute;
+    bottom: 50vh;
     width: 100%;
     list-style: none;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    justify-content: center;
+    transform: rotate(270deg);
 }
 
-#psuiv a{
-    display: flex;
-    text-align: center;
+#cliquable{
     text-decoration: none;
     color: white;
     font-size: 25px;
-    height: 100%;
-    width: 50%;
-    margin: auto;
 }
 
 /* réalisation du hover sur la barre de droite */
 #psuiv:hover{
-    height: 12vh;
     background-color: #C76C36;
+    width: 9%;
 }
