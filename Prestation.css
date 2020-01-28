@@ -161,8 +161,8 @@ nav ul li a img{
 }
 /* réalisation du hover du bouton webdesigner */
 #bweb2:hover{
-    border-top: 5px solid white;
-    border-left: 5px solid white;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
     border-right: 5px solid #8A3A89;
     border-bottom: 5px solid #8A3A89;
 }
@@ -171,7 +171,7 @@ nav ul li a img{
     color: white;
 }
 
-/*design du bouton web*/
+/*design du bouton textile*/
 #text2{
     text-transform: uppercase;
     padding: 1% 2% 1% 2%;
@@ -201,8 +201,8 @@ nav ul li a img{
 }
 /* réalisation du hover du bouton textile */
 #text2:hover{
-    border-top: 5px solid white;
-    border-left: 5px solid white;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
     border-right: 5px solid #C76C36;
     border-bottom: 5px solid #C76C36;
 }
@@ -211,6 +211,85 @@ nav ul li a img{
     color: white;
 }
 
+/*design du bouton graph*/
+#graph2{
+    text-transform: uppercase;
+    padding: 1% 2% 1% 2%;
+    width: 100%;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+
+#graph{
+    width: 25%;
+    text-decoration: none;
+    position: absolute;
+    top: 60%;
+    left: 62%;
+}
+
+#graph2 p{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    font-size: 40px;
+}
+
+#graph2 p i{
+    margin-right: 4%;
+    font-size: 40px;
+}
+/* réalisation du hover du bouton graph */
+#graph2:hover{
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 5px solid #8A3A89;
+    border-bottom: 5px solid #8A3A89;
+}
+
+#graph2:hover p{
+    color: white;
+}
+
+/*design du bouton maquette et packaging*/
+#maq2{
+    text-transform: uppercase;
+    padding: 1% 2% 1% 2%;
+    width: 100%;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+
+#maq{
+    width: 25%;
+    text-decoration: none;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+#maq2 p{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    font-size: 30px;
+}
+
+#maq2 p i{
+    margin-right: 4%;
+    font-size: 30px;
+}
+/* réalisation du hover du bouton graph */
+#maq2:hover{
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    border-right: 5px solid #C76C36;
+    border-bottom: 5px solid #C76C36;
+}
+
+#maq2:hover p{
+    color: white;
+}
 /* mise en place de la navigation sociaux */
 #sociaux {
     width: 15%;
