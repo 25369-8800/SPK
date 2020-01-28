@@ -1,5 +1,4 @@
 /* background image body */
-
 html{
     position: absolute;
     bottom: 0;
@@ -101,7 +100,7 @@ nav ul li a img{
 }
 
 #présentation{
-    margin-top: 10%;
+    margin-top: 5%;
     width: 100%;
 }
 #présentation h1{
@@ -175,11 +174,11 @@ nav ul li a img{
 
 /* variation des hauteur de colonne */
 .left{
-    margin-top: 40%;
+    margin-top: 35%;
 }
 
 .right {
-    margin-top: 20%;
+    margin-top: 15%;
 }
 #grid{
     display: grid;
@@ -218,6 +217,44 @@ nav ul li a img{
 /* suppression du texte décoration  sur les colonnes */
 .liencolonne{
     text-decoration: none;
+}
+
+/*design du deuxième bouton de la page d'acceuil*/
+#boutonhome2{
+    text-transform: uppercase;
+    padding: 1% 2% 1% 2%;
+    width: 50%;
+    text-align: center;
+    transition-duration: 1s;
+    border: 5px solid #8A3A89;
+    stroke-dasharray: 120 120 48 196;
+    position: relative;
+    left: 22%;
+}
+
+#bclic2{
+    text-decoration: none;
+    position: relative;
+    left: 100%;
+}
+
+#boutonhome2 p{
+    color: #8A3A89;
+    text-decoration: none;
+    width: 100%;
+    font-size: 20px;
+}
+
+/* réalisation du hover du deuxième bouton home */
+#boutonhome2:hover{
+    background-color: #C76C36;
+    border-radius: 50%;
+    transform: scale(1.2);
+    border: none;
+}
+
+#boutonhome2:hover p{
+    color: white;
 }
 /* mise en place de la navigation sociaux */
 #sociaux {
