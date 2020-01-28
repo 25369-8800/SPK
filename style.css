@@ -19,6 +19,7 @@ body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     animation-name: FADE;
     animation-duration: 5s;
+    height: 100vh;
 }
 
 main{
@@ -107,7 +108,7 @@ nav ul li a img{
 }
 
 #présentation{
-    margin-top: 5%;
+    margin-top: 2%;
     width: 100%;
 }
 #présentation h1{
@@ -147,10 +148,9 @@ nav ul li a img{
     margin-left: 25%;
     text-transform: uppercase;
     padding: 1% 2% 1% 2%;
-    width: 10%;
+    width: 20%;
     background-color: #8A3A89;
     text-align: center;
-    transition-duration: 0.5s;
 }
 
 #bclic{
@@ -167,8 +167,6 @@ nav ul li a img{
 /* réalisation du hover bouton home */
 #boutonhome:hover{
     background-color: #C76C36;
-    border-radius: 50%;
-    transform: scale(1.2);
 }
 
 /* mise en place de la grille */
@@ -226,7 +224,7 @@ nav ul li a img{
 
 #grid figure figcaption{
     z-index: 1;
-    bottom: 21%;
+    bottom: 24%;
     position: relative;
     background-color: rgba(138, 58, 137, 0.705);
     color: white;
@@ -343,13 +341,14 @@ figcaption p::before{
 /* barre de nav à droite */
 aside#psuiv{
     height: 100vh;
-    position: absolute;
-    right: 0;;
+    position: fixed;
+    right: 0;
+    bottom: 0;
 }
 
 #psuiv{
     background-color: #8A3A89;  
-    width: 7%;
+    width: 10%;
     position: absolute;
     bottom: 0;
     transition-duration: 1s;
@@ -360,7 +359,6 @@ aside#psuiv{
     bottom: 50vh;
     width: 100%;
     list-style: none;
-    justify-content: center;
     transform: rotate(270deg);
 }
 
@@ -373,7 +371,7 @@ aside#psuiv{
 /* réalisation du hover sur la barre de droite */
 #psuiv:hover{
     background-color: #C76C36;
-    width: 8%;
+    width: 12%;
 }
 
 /* mise en place du footer */
