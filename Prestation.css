@@ -1,0 +1,199 @@
+@keyframes FADE {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* background image body */
+html{
+    position: absolute;
+    bottom: 0;
+    height: 100vh;
+    right: 0;
+    width: 100%;
+}
+body{
+    background-image: url(/Assets/Images/background2.svg);
+    background-size: 2500px;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation-name: FADE;
+    animation-duration: 5s;
+}
+
+/* mise en place de la nav */
+nav{
+    width: 100%;
+    margin: auto;
+    padding-top: 2%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 70%;
+    margin: auto;
+}
+
+nav ul li{
+    line-height: 25px;
+    margin-left: 2%;
+    width: 10%;
+    margin: auto;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+/* hover des liens */
+nav ul li a:hover {
+    color: black;
+}
+
+/* Réduction du logo */
+
+nav ul li a img{
+    width: 100%;
+    margin-left: 2%;
+}
+
+/* création du type bouton infolettre */
+
+#bmenu{
+    border: 3px solid white;
+    padding: 1%;
+    border-radius: 100px;
+    text-align: center;
+}
+
+#bmenu a{
+    color: white;
+}
+
+#bmenu a i{
+    margin-right: 5%;
+    color: white;
+}
+
+/*hover bmenu */
+#bmenu:hover{
+    background-color: black;
+    border: black;
+}
+
+#bmenu:hover a{
+    color: white;
+}
+
+#bmenu:hover a i{
+    color: white;
+}
+
+/* mise en place de la navigation sociaux */
+#sociaux {
+    width: 15%;
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+}
+#sociaux ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    list-style: none;
+    transform: rotate(270deg);
+    position: absolute;
+    bottom: 20%;
+}
+
+#sociaux ul i{
+    color: white;
+}
+
+#sociaux ul li{
+    text-transform: uppercase;
+    color: white;
+}
+/*hover icônes */
+#sociaux ul i:hover{
+    color: black;
+}
+
+/* barre de nav à droite */
+aside#psuiv{
+    height: 100vh;
+    position: absolute;
+    right: 0;
+}
+
+#psuiv{
+    background-color: white;  
+    width: 7%;
+    position: absolute;
+    bottom: 0;
+    transition-duration: 1s;
+}
+
+#psuiv li{
+    position: absolute;
+    bottom: 54vh;
+    width: 100%;
+    list-style: none;
+    justify-content: center;
+    transform: rotate(270deg);
+}
+
+#cliquable{
+    text-decoration: none;
+    color: #8A3A89;
+    font-size: 25px;
+}
+
+/* réalisation du hover sur la barre de droite */
+#psuiv:hover{
+    background-color: #8A3A89;
+    width: 8%;
+}
+
+#cliquable:hover{
+    color: white;
+}
+
+/* mise en place du footer */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav ul {
+    width: 30%;
+    padding-left: 1%;
+    padding-right: 1%;
+    border-bottom: 3px solid #C76C36 ;
+}
+
+footer nav ul li{
+    color: black;
+    text-align: center;
+}
+
+footer nav ul li a{
+    font-size: 20px;
+}
+/* after de la page active dans le menu */
+#active::after{
+    content: '▲';
+    height: 1.5vh;
+    display: block;
+    color: #C76C36;
+}
+
+/* hover barre du bas */
+footer nav ul li a:hover {
+    color: #C76C36;
+}
+
