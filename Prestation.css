@@ -131,6 +131,86 @@ nav ul li a img{
     color: white;
 }
 
+/*design du bouton web*/
+#bweb2{
+    text-transform: uppercase;
+    padding: 1% 2% 1% 2%;
+    width: 100%;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+
+#bweb{
+    width: 15%;
+    text-decoration: none;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+#bweb2 p{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    font-size: 40px;
+}
+
+#bweb2 p i{
+    margin-right: 4%;
+    font-size: 40px;
+}
+/* réalisation du hover du bouton webdesigner */
+#bweb2:hover{
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid #8A3A89;
+    border-bottom: 5px solid #8A3A89;
+}
+
+#bweb2:hover p{
+    color: white;
+}
+
+/*design du bouton web*/
+#text2{
+    text-transform: uppercase;
+    padding: 1% 2% 1% 2%;
+    width: 100%;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+
+#text{
+    width: 15%;
+    text-decoration: none;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+
+#text2 p{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    font-size: 30px;
+}
+
+#text2 p i{
+    margin-right: 4%;
+    font-size: 30px;
+}
+/* réalisation du hover du bouton textile */
+#text2:hover{
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid #C76C36;
+    border-bottom: 5px solid #C76C36;
+}
+
+#text2:hover p{
+    color: white;
+}
+
 /* mise en place de la navigation sociaux */
 #sociaux {
     width: 15%;
