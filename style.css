@@ -143,7 +143,7 @@ nav ul li a img{
     width: 10%;
     background-color: #8A3A89;
     text-align: center;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
 }
 
 #bclic{
@@ -245,6 +245,10 @@ nav ul li a img{
     font-size: 20px;
 }
 
+#boutonhome2 p i{
+    margin-right: 4%;
+    font-size: 25px;
+}
 /* réalisation du hover du deuxième bouton home */
 #boutonhome2:hover{
     background-color: #C76C36;
@@ -324,4 +328,35 @@ aside#psuiv{
 #psuiv:hover{
     background-color: #C76C36;
     width: 8%;
+}
+
+/* mise en place du footer */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav ul {
+    width: 30%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgba(255, 255, 255, 0.616);
+    border-bottom: 3px solid #C76C36 ;
+}
+
+footer nav ul li{
+    color: black;
+    text-align: center;
+}
+
+footer nav ul li a{
+    font-size: 20px;
+}
+/* after de la page active dans le menu */
+#active::after{
+    content: '▲';
+    height: 1.5vh;
+    display: block;
+    color: #8A3A89;
 }
