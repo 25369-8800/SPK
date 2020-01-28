@@ -95,9 +95,14 @@ nav ul li a img{
 }
 
 /* texte de présentation */
+#partdroite{
+    width: 100%;
+    display: flex;
+}
+
 #présentation{
     margin-top: 10%;
-    width: 60%;
+    width: 100%;
 }
 #présentation h1{
     font-size: 40px;
@@ -110,6 +115,7 @@ nav ul li a img{
     font-size: 20px;
     width: 50%;
     margin: auto;
+    display: flex;
 }
 
 #présentation p{
@@ -119,8 +125,8 @@ nav ul li a img{
 }
 /* mise en place de la nav à logo */
 #présentation ul{
-    margin-left: 21%;
-    width: 50%;
+    margin-left: 19%;
+    width: 70%;
     display: flex;
     justify-content: space-around;
 }
@@ -159,6 +165,60 @@ nav ul li a img{
     transform: scale(1.2);
 }
 
+/* mise en place de la grille */
+#gridglobal{
+    margin-right: 10%;
+    width: 100%;
+    display: flex;
+    height: 20vh;
+}
+
+/* variation des hauteur de colonne */
+.left{
+    margin-top: 40%;
+}
+
+.right {
+    margin-top: 20%;
+}
+#grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+#grid figure figcaption{
+    margin-top: -1%;
+    position: relative;
+    background-color: rgba(138, 58, 137, 0.705);
+    color: white;
+    padding: 5px;
+}
+
+#grid figure figcaption h3{
+    margin-left: 5%;
+}
+
+#grid figure figcaption p{
+    margin-left: 5%;
+}
+
+#grid figure{
+    width: 70%;
+    height: 20vh;
+}
+
+#grid figure img{
+    width: 100%;
+}
+
+/*hover figcaption */
+#grid figure figcaption:hover{
+    background-color: rgba(199, 107, 54, 0.705);
+}
+/* suppression du texte décoration  sur les colonnes */
+.liencolonne{
+    text-decoration: none;
+}
 /* mise en place de la navigation sociaux */
 #sociaux {
     width: 15%;

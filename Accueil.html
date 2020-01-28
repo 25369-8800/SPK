@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="reset.css">
-    <script  src = " https://kit.fontawesome.com/cc81d91d9d.js " crossorigin = " anonymous " > </script>
+    <script src=" https://kit.fontawesome.com/cc81d91d9d.js " crossorigin=" anonymous "> </script>
     <title>Accueil</title>
 </head>
 
@@ -23,41 +23,88 @@
             </ul>
         </nav>
     </header>
-        <!--Texte de présentation-->
-        <section id="présentation">
+    <!--Texte de présentation-->
+    <div id="partdroite">
+        <div id="présentation">
             <h1>Un métier, une passion</h1><br><br>
-            <h2>Suite à une formation de graphiste, j'ai voulu continuer l'aventure <br> c'est pour cela que j'ai suivi cette formation de webdesigner.</h2><br><br>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus iure, fugiat vitae non autem earum sequi perferendis.<br> Fugiat beatae eum laborum magnam nam, eligendi odit, quisquam quidem dolor, laudantium quos!
-                Lorem ipsum dolor sit,amet consectetur adipisicing elit. Repellendus iure, fugiat vitae non autem earum sequi perferendis.<br> Fugiat beatae eum laborum magnam nam, eligendi odit, quisquam quidem dolor, laudantium quos!<br><br>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus iure, fugiat vitae non autem earum sequi perferendis.<br> Fugiat beatae eum laborum magnam nam, eligendi odit, quisquam quidem dolor, laudantium quos!</p>
-                <!--Barre de navigation des partenaires-->
-                <ul>
-                    <a href="https://spektrummedia.com/"><img src="./Assets/Images/logo1.svg" alt="Logo spektrum"></a>
-                    <a href="https://bnkr.work/"><img src="./Assets/Images/logo2.svg" alt="Logo BNKR"></a>
-                    <a href="https://apollo13.co/"><img src="./Assets/Images/logo3.svg" alt="Logo Apollo"></a>
-                    <a href="#"><img src="./Assets/Images/logo4.svg" alt="Logo académie"></a>
-                </ul>
-                <!--création du bouton home-->
-                <a id="bclic" href="#">
-                    <div id="boutonhome">
+            <h2>Suite à une formation de graphiste, j'ai voulu continuer l'aventure <br> c'est pour cela que j'ai suivi
+                cette formation de webdesigner.</h2><br><br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus iure, fugiat vitae non autem earum
+                sequi perferendis.<br> Fugiat beatae eum laborum magnam nam, eligendi odit, quisquam quidem dolor,
+                laudantium quos!
+                Lorem ipsum dolor sit,amet consectetur adipisicing elit. Repellendus iure, fugiat vitae non autem earum
+                sequi perferendis.<br> Fugiat beatae eum laborum magnam nam, eligendi odit, quisquam quidem dolor,
+                laudantium quos!<br><br>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus iure, fugiat vitae non autem earum
+                sequi perferendis.<br> Fugiat beatae eum laborum magnam nam, eligendi odit, quisquam quidem dolor,
+                laudantium quos!</p>
+            <!--Barre de navigation des partenaires-->
+            <ul>
+                <a href="https://spektrummedia.com/"><img src="./Assets/Images/logo1.svg" alt="Logo spektrum"></a>
+                <a href="https://bnkr.work/"><img src="./Assets/Images/logo2.svg" alt="Logo BNKR"></a>
+                <a href="https://apollo13.co/"><img src="./Assets/Images/logo3.svg" alt="Logo Apollo"></a>
+                <a href="#"><img src="./Assets/Images/logo4.svg" alt="Logo académie"></a>
+            </ul>
+            <!--création du bouton home-->
+            <a id="bclic" href="#">
+                <div id="boutonhome">
                     <p>En détail</p>
                 </div>
             </a>
+        </div>
+        <!--Création de la grille composée de figure et figcaption-->
+        <section id="gridglobal">
+            <div id="grid">
+                <figure class="left">
+                   <a href="" class="liencolonne"> <img src="/Assets/Images/col1.jpeg" alt="Image rétrospective">
+                    <figcaption>
+                        <h3>Webdesigner : Site pour un <br>auteur amateur</h3>
+                        <p>Webdesign</p>
+                    </figcaption>
+                </a>  
+                </figure>
+                <figure class="right">
+                    <a href="#" class="liencolonne"><img src="/Assets/Images/col3.jpeg" alt="Image citation">
+                    <figcaption>
+                        <h3>Création textile : Fahel</h3>
+                        <p>Textile</p>
+                    </figcaption>
+                </a>
+                </figure>
+                <figure class="left">
+                    <a href="http://" class="liencolonne"><img src="/Assets/Images/col2.jpg" alt="Photo séminaire">
+                    <figcaption>
+                        <h3>Identité visuelle : Frimoosth</h3>
+                        <p>Conception Graphique</p>
+                    </figcaption>
+                </a>
+                </figure>
+                <a href="#" class="liencolonne">
+                <figure class="right">
+                    <img src="/Assets/Images/col4.jpg" alt="Photo en mouvement">
+                    <figcaption>
+                        <h3>Packaging : GreenBullit</h3>
+                        <p>Packaging</p>
+                    </figcaption>
+                </figure>
+                </a>
+            </div>
         </section>
-    <!--Création de la navigation de barre des réseaux-->
-    <aside id="sociaux">
-        <ul>
-            <li>Nous suivre </li>
-            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-        </ul>
-    </aside>
-    <a id="cliquable" href="https://forums.macg.co/threads/faire-un-div-cliquable.89906/">
-    <aside id="psuiv">
-       <li>Portfolio ▼</li> 
-    </aside>
-</a>  
+
+        <!--Création de la navigation de barre des réseaux-->
+        <aside id="sociaux">
+            <ul>
+                <li>Nous suivre </li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+            </ul>
+        </aside>
+        <a id="cliquable" href="https://forums.macg.co/threads/faire-un-div-cliquable.89906/">
+            <aside id="psuiv">
+                <li>Portfolio ▼</li>
+            </aside>
+        </a>
 </body>
 
 </html>
