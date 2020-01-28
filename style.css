@@ -1,12 +1,16 @@
 
 /* background image body */
 html{
+    position: absolute;
+    bottom: 0;
     height: 100vh;
+    right: 0;
+    width: 100%;
 }
 body{
     background-image: url(/Assets/Images/background.svg);
-    background-size: 1800px;
-    background-position: top;
+    background-size: 1900px;
+    background-position: left 40% right 50%;
     background-repeat: no-repeat;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -109,6 +113,19 @@ nav ul li a img{
 #présentation p{
     width: 50%;
     margin: auto;
+    font-size: 20px;
+}
+/* mise en place de lanv à logo */
+#présentation ul{
+    margin-left: 21%;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#présentation ul a{
+    width: 17%;
+    list-style: none;
 }
 /* mise en place de la navigation sociaux */
 
