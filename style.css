@@ -1,5 +1,5 @@
-
 /* background image body */
+
 html{
     position: absolute;
     bottom: 0;
@@ -10,7 +10,7 @@ html{
 body{
     background-image: url(/Assets/Images/background.svg);
     background-size: 1900px;
-    background-position: left 40% right 50%;
+    background-position: left 50% right 50% ;
     background-repeat: no-repeat;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -68,6 +68,7 @@ nav ul li a img{
     border: 3px solid #8A3A89;
     padding: 1%;
     border-radius: 100px;
+    text-align: center;
 }
 
 #bmenu a{
@@ -96,6 +97,7 @@ nav ul li a img{
 /* texte de présentation */
 #présentation{
     margin-top: 10%;
+    width: 60%;
 }
 #présentation h1{
     font-size: 40px;
@@ -105,7 +107,7 @@ nav ul li a img{
 }
 
 #présentation h2{
-    font-size: 30px;
+    font-size: 20px;
     width: 50%;
     margin: auto;
 }
@@ -115,7 +117,7 @@ nav ul li a img{
     margin: auto;
     font-size: 20px;
 }
-/* mise en place de lanv à logo */
+/* mise en place de la nav à logo */
 #présentation ul{
     margin-left: 21%;
     width: 50%;
@@ -127,8 +129,37 @@ nav ul li a img{
     width: 17%;
     list-style: none;
 }
-/* mise en place de la navigation sociaux */
 
+/* design du bouton homme */
+#boutonhome{
+    margin-left: 25%;
+    text-transform: uppercase;
+    padding: 1% 2% 1% 2%;
+    width: 10%;
+    background-color: #8A3A89;
+    text-align: center;
+    transition-duration: 1s;
+}
+
+#bclic{
+    text-decoration: none;
+}
+
+#boutonhome p{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    font-size: 20px;
+}
+
+/* réalisation du hover bouton home */
+#boutonhome:hover{
+    background-color: #C76C36;
+    border-radius: 50%;
+    transform: scale(1.2);
+}
+
+/* mise en place de la navigation sociaux */
 #sociaux {
     width: 15%;
     height: 100vh;
