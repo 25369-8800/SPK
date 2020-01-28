@@ -31,7 +31,7 @@ nav ul{
     display: flex;
     justify-content: space-between;
     list-style: none;
-    width: 70%;
+    width: 92%;
     margin: auto;
 }
 
@@ -377,7 +377,7 @@ aside#prec{
 
 #prec li{
     position: absolute;
-    bottom: 54vh;
+    bottom: 49vh;
     width: 100%;
     list-style: none;
     justify-content: center;

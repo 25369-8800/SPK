@@ -12,7 +12,7 @@ html{
     width: 100%;
 }
 body{
-    background-image: url(/Assets/Images/background.svg);
+    background-image: url(/Assets/Images/background3.svg);
     background-size: 1900px;
     background-position: left 50% right 50% ;
     background-repeat: no-repeat;
@@ -106,42 +106,14 @@ nav ul li a img{
     display: flex;
 }
 
-#présentation{
-    margin-top: 5%;
+#grossefig{
     width: 100%;
-}
-#présentation h1{
-    font-size: 40px;
-    color: #C76C36;
-    width: 50%;
-    margin: auto;
+    margin-left: 10%;
 }
 
-#présentation h2{
-    font-size: 20px;
-    width: 50%;
-    margin: auto;
-    display: flex;
+#grossefig figure{
+    width: 30%;
 }
-
-#présentation p{
-    width: 50%;
-    margin: auto;
-    font-size: 20px;
-}
-/* mise en place de la nav à logo */
-#présentation ul{
-    margin-left: 19%;
-    width: 70%;
-    display: flex;
-    justify-content: space-around;
-}
-
-#présentation ul a{
-    width: 17%;
-    list-style: none;
-}
-
 /* design du bouton homme */
 #boutonhome{
     margin-left: 25%;
@@ -187,6 +159,7 @@ nav ul li a img{
 .right {
     margin-top: 15%;
 }
+
 /* mise en place de l'icône */
 .left i.fas.fa-desktop{
     position: relative;
@@ -218,7 +191,7 @@ nav ul li a img{
     z-index: 2;
 }
 
-
+/*création de la grille */
 #grid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -255,7 +228,7 @@ nav ul li a img{
     background-color: rgba(199, 107, 54, 0.705);
 }
 
-/* before figcaption catégorie */
+/* figcaption catégorie before*/
 figcaption p::before{
     content: '•';
     display: inline-block;
@@ -265,6 +238,7 @@ figcaption p::before{
     transform: translate3d(0, -10%, 0);
     margin-right: .5em;
 }
+
 /* suppression du texte décoration  sur les colonnes */
 .liencolonne{
     text-decoration: none;
@@ -340,38 +314,38 @@ figcaption p::before{
     color: #8A3A89;
 }
 
-/* barre de nav à droite */
-aside#psuiv{
+/* barre de nav à gauche */
+aside#prec{
     height: 100vh;
     position: absolute;
-    right: 0;;
+    left: 0;
 }
 
-#psuiv{
-    background-color: #8A3A89;  
+#prec{ 
     width: 7%;
     position: absolute;
     bottom: 0;
     transition-duration: 1s;
+    background-color: #8A3A89;
 }
 
-#psuiv li{
+#prec li{
     position: absolute;
-    bottom: 50vh;
+    bottom: 49vh;
     width: 100%;
     list-style: none;
     justify-content: center;
-    transform: rotate(270deg);
+    transform: rotate(-270deg);
 }
 
-#cliquable{
+#cliquable2{
     text-decoration: none;
     color: white;
     font-size: 25px;
 }
 
-/* réalisation du hover sur la barre de droite */
-#psuiv:hover{
+/* réalisation du hover sur la barre de gauche */
+#prec:hover{
     background-color: #C76C36;
     width: 8%;
 }
