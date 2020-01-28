@@ -90,6 +90,46 @@ nav ul li a img{
 #bmenu:hover a i{
     color: white;
 }
+/*design du deuxième bouton de la page d'acceuil*/
+#boutonhome2{
+    text-transform: uppercase;
+    padding: 1% 2% 1% 2%;
+    width: 100%;
+    text-align: center;
+    transition-duration: 1s;
+    border: 5px solid white;
+}
+
+#bclic2{
+    width: 15%;
+    text-decoration: none;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+#boutonhome2 p{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    font-size: 20px;
+}
+
+#boutonhome2 p i{
+    margin-right: 4%;
+    font-size: 25px;
+}
+/* réalisation du hover du deuxième bouton home */
+#boutonhome2:hover{
+    background-color: #C76C36;
+    border-radius: 50%;
+    transform: scale(1.2);
+    border: none;
+}
+
+#boutonhome2:hover p{
+    color: white;
+}
 
 /* mise en place de la navigation sociaux */
 #sociaux {
@@ -162,9 +202,44 @@ aside#psuiv{
     color: white;
 }
 
+/* barre de nav à gauche */
+aside#prec{
+    height: 100vh;
+    position: absolute;
+    left: 0;
+}
+
+#prec{ 
+    width: 7%;
+    position: absolute;
+    bottom: 0;
+    transition-duration: 1s;
+}
+
+#prec li{
+    position: absolute;
+    bottom: 54vh;
+    width: 100%;
+    list-style: none;
+    justify-content: center;
+    transform: rotate(-270deg);
+}
+
+#cliquable2{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+
+/* réalisation du hover sur la barre de droite */
+#prec:hover{
+    background-color: #8A3A89;
+    width: 8%;
+}
+
 /* mise en place du footer */
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
@@ -173,7 +248,7 @@ footer nav ul {
     width: 30%;
     padding-left: 1%;
     padding-right: 1%;
-    border-bottom: 3px solid #C76C36 ;
+    border-bottom: 1px solid #C76C36 ;
 }
 
 footer nav ul li{
@@ -190,6 +265,7 @@ footer nav ul li a{
     height: 1.5vh;
     display: block;
     color: #C76C36;
+    margin-left: 50%;
 }
 
 /* hover barre du bas */

@@ -227,7 +227,6 @@ nav ul li a img{
     text-align: center;
     transition-duration: 1s;
     border: 5px solid #8A3A89;
-    stroke-dasharray: 120 120 48 196;
     position: relative;
     left: 22%;
 }
@@ -328,7 +327,7 @@ aside#psuiv{
 
 /* mise en place du footer */
 footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
