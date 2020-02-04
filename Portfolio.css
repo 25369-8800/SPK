@@ -160,8 +160,19 @@ nav ul li a img{
 .right {
     margin-top: 15%;
 }
-/* mise en place de l'icône */
+/* mise en place des icônes */
+/* couleur du fond de l'icône pc */
 .left i.fas.fa-desktop{
+    position: relative;
+    bottom: 15%;
+    font-size: 25px;
+    background-color: rgb(0, 74, 158);
+    padding:3%;
+    color: white;
+    z-index: 2;
+}
+
+.right i.fas.fa-desktop{
     position: relative;
     bottom: 15%;
     font-size: 25px;
@@ -191,6 +202,37 @@ nav ul li a img{
     z-index: 2;
 }
 
+/* couleur du fond de l'icône palette */
+.right i.fas.fa-palette{
+    position: relative;
+    bottom: 15%;
+    font-size: 25px;
+    background-color: rgb(0, 117, 59);
+    padding:3%;
+    color: white;
+    z-index: 2;
+}
+
+.left i.fas.fa-palette{
+    position: relative;
+    bottom: 15%;
+    font-size: 25px;
+    background-color: rgb(0, 117, 59);
+    padding:3%;
+    color: white;
+    z-index: 2;
+}
+
+/* couleur du fond de l'icône boite*/
+.right i.fas.fa-box{
+    position: relative;
+    bottom: 15%;
+    font-size: 25px;
+    background-color: rgb(148, 2, 2);
+    padding:3%;
+    color: white;
+    z-index: 2;
+}
 
 #grid{
     display: grid;
@@ -199,7 +241,7 @@ nav ul li a img{
 
 #grid figure figcaption{
     z-index: 1;
-    bottom: 24%;
+    bottom: 22%;
     position: relative;
     background-color: rgba(138, 58, 137, 0.705);
     color: white;
