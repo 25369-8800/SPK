@@ -294,45 +294,27 @@ figcaption p::before{
     text-decoration: none;
 }
 
-/*design du deuxième bouton de la page d'acceuil*/
-#boutonhome2{
-    text-transform: uppercase;
-    padding: 1% 2% 1% 2%;
-    width: 50%;
-    text-align: center;
-    transition-duration: 1s;
-    border: 5px solid #8A3A89;
-    position: relative;
-    left: 22%;
-}
-
-#bclic2{
-    text-decoration: none;
-    position: relative;
-    left: 100%;
-}
-
-#boutonhome2 p{
-    color: #8A3A89;
-    text-decoration: none;
-    width: 100%;
-    font-size: 20px;
-}
-
-#boutonhome2 p i{
-    margin-right: 4%;
-    font-size: 25px;
-}
-/* réalisation du hover du deuxième bouton home */
-#boutonhome2:hover{
+/* création des flèches pour changer de page */
+#fleched{
+    position: absolute;
+    bottom: 5%;
+    left: 93%;
     background-color: #C76C36;
-    border-radius: 50%;
-    transform: scale(1.2);
-    border: none;
+    padding: 0.8% 1% 0.8% 1%;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;    
 }
 
-#boutonhome2:hover p{
+#flecheg{
+    position: absolute;
+    bottom: 5%;
+    left: 88%;
+    background-color: #C76C36;
+    padding: 0.8% 1% 0.8% 1%;
     color: white;
+    font-size: 25px;
+    text-decoration: none;
 }
 /* mise en place de la navigation sociaux */
 #sociaux {
