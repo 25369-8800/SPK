@@ -150,11 +150,11 @@ nav ul li a img{
 
 /* variation des hauteur de colonne */
 .left{
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .right {
-    margin-top: 15%;
+    margin-top: 5%;
 }
 /* mise en place de l'icône */
 .left i.fas.fa-desktop{
@@ -269,6 +269,7 @@ figcaption p::before{
     border: 5px solid #8A3A89;
     position: relative;
     left: 22%;
+    margin-top: 5%;
 }
 
 #bclic2{
