@@ -58,16 +58,10 @@ nav ul li a:hover {
     color: #8A3A89;
 }
 
-/* lien actif
-nav ul li a:visited{
-    color: #8A3A89;
-}*/
-
 /* Réduction du logo */
 
 nav ul li a img{
     width: 100%;
-    margin-left: 2%;
 }
 
 /* création du type bouton infolettre */
@@ -140,7 +134,7 @@ nav ul li a img{
 }
 /* mise en place de la grosse figure */
 .solo{
-    margin-left: 35%;
+    margin-left: 36%;
     margin-top: 20%;
 }
 
