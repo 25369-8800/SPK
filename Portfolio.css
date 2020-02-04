@@ -147,7 +147,7 @@ nav ul li a img{
 /* mise en place de la grille */
 #gridglobal{
     margin-right: 10%;
-    width: 50%;
+    width: 70%;
     display: flex;
     height: 20vh;
 }
@@ -194,7 +194,7 @@ nav ul li a img{
 
 #grid{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(3,1fr);
 }
 
 #grid figure figcaption{
