@@ -190,7 +190,27 @@ nav ul li a img{
     color: white;
     z-index: 2;
 }
+/* couleur du fond de l'icône palette */
+.left i.fas.fa-palette{
+    position: relative;
+    bottom: 15%;
+    font-size: 25px;
+    background-color: rgb(0, 117, 59);
+    padding:3%;
+    color: white;
+    z-index: 2;
+}
 
+/* couleur du fond de l'icône boite*/
+.right i.fas.fa-box{
+    position: relative;
+    bottom: 15%;
+    font-size: 25px;
+    background-color: rgb(148, 2, 2);
+    padding:3%;
+    color: white;
+    z-index: 2;
+}
 
 #grid{
     display: grid;
