@@ -152,12 +152,12 @@ nav ul li a img{
     color: white;
     text-decoration: none;
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #bweb2 p i{
     margin-right: 4%;
-    font-size: 40px;
+    font-size: 30px;
 }
 /* réalisation du hover du bouton webdesigner */
 #bweb2:hover{
@@ -232,12 +232,12 @@ nav ul li a img{
     color: white;
     text-decoration: none;
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 #graph2 p i{
     margin-right: 4%;
-    font-size: 40px;
+    font-size: 30px;
 }
 /* réalisation du hover du bouton graph */
 #graph2:hover{
