@@ -306,11 +306,16 @@ figcaption p::before{
     text-decoration: none;    
 }
 
+#fleched:hover{
+    background-color: #8A3A89;
+ 
+}
+
 #flecheg{
     position: absolute;
-    bottom: 5%;
+    bottom: 2.5%;
     left: 88%;
-    background-color: #C76C36;
+    background-color: rgb(112, 61, 31);
     padding: 0.8% 1% 0.8% 1%;
     color: white;
     font-size: 25px;

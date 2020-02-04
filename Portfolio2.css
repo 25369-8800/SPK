@@ -316,6 +316,16 @@ figcaption p::before{
     font-size: 25px;
     text-decoration: none;
 }
+
+/* hover des flèches en bas à droite */
+#fleched:hover{
+    background-color: #8A3A89;
+ 
+}
+
+#flecheg:hover{
+    background-color: #8A3A89;
+}
 /* mise en place de la navigation sociaux */
 #sociaux {
     width: 20%;
