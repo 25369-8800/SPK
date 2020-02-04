@@ -110,43 +110,57 @@ nav ul li a img{
 
 #présentation{
     margin-top: 2%;
+}
+
+#présentation figure figcaption{
+    z-index: 1;
+    bottom: 31%;
+    position: relative;
+    background-color: rgba(138, 58, 137, 0.705);
+    color: white;
+    padding: 5px;
+}
+
+#présentation figure figcaption h3{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#présentation figure figcaption p{
+    margin-left: 5%;
+}
+
+#présentation figure{
+    width: 70%;
+    height: 20vh;
+}
+
+#présentation figure img{
     width: 100%;
 }
-#présentation h1{
-    font-size: 40px;
-    color: #C76C36;
-    width: 50%;
-    margin: auto;
+
+.solo{
+    margin-left: 30%;
+    margin-top: 20%;
 }
 
-#présentation h2{
-    font-size: 20px;
-    width: 50%;
-    margin: auto;
-    display: flex;
+.solo i.fas.fa-palette{
+    position: relative;
+    bottom: 20%;
+    font-size: 25px;
+    background-color: rgb(0, 74, 158);
+    padding:3%;
+    color: white;
+    z-index: 2;
+}
+/*hover figcaption */
+#présentation figure figcaption:hover{
+    background-color: rgba(199, 107, 54, 0.705);
 }
 
-#présentation p{
-    width: 50%;
-    margin: auto;
-    font-size: 20px;
-}
-/* mise en place de la nav à logo */
-#présentation ul{
-    margin-left: 19%;
-    width: 70%;
-    display: flex;
-    justify-content: space-around;
-}
-
-#présentation ul a{
-    width: 17%;
-    list-style: none;
-}
 
 /* mise en place de la grille */
 #gridglobal{
-    margin-right: 10%;
     width: 70%;
     display: flex;
     height: 20vh;
