@@ -1,0 +1,418 @@
+/* animation fade in*/
+@keyframes FADE {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+}
+/* background image body */
+html{
+    position: absolute;
+    bottom: 0;
+    height: 100vh;
+    right: 0;
+    width: 100%;
+}
+body{
+    background-image: url(/Assets/Images/background.svg);
+    background-size: 1900px;
+    background-position: left 50% right 50% ;
+    background-repeat: no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    animation-name: FADE;
+    animation-duration: 5s;
+    height: 100vh;
+}
+
+main{
+    max-height: 100vh;
+    display: flex;
+}
+/* mise en place de la nav */
+nav{
+    width: 100%;
+    margin: auto;
+    padding-top: 2%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 92%;
+    margin: auto;
+}
+
+nav ul li{
+    line-height: 25px;
+    margin-left: 2%;
+    width: 10%;
+    margin: auto;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #C76C36;
+    font-size: 25px;
+}
+
+/* hover des liens */
+nav ul li a:hover {
+    color: #8A3A89;
+}
+
+/* Réduction du logo */
+
+nav ul li a img{
+    width: 100%;
+}
+
+/* création du type bouton infolettre */
+
+#bmenu{
+    border: 3px solid #8A3A89;
+    padding: 1%;
+    border-radius: 100px;
+    text-align: center;
+}
+
+#bmenu a{
+    color: #8A3A89;
+}
+
+#bmenu a i{
+    margin-right: 5%;
+    color: #8A3A89;
+}
+
+/*hover bmenu */
+#bmenu:hover{
+    background-color: #C76C36;
+    border: #C76C36;
+}
+
+#bmenu:hover a{
+    color: white;
+}
+
+#bmenu:hover a i{
+    color: white;
+}
+
+/* texte de présentation */
+#partdroite{
+    width: 50%;
+    display: flex;
+}
+
+#présentation{
+    margin-top: 2%;
+}
+
+#présentation figure figcaption{
+    z-index: 1;
+    bottom: 31%;
+    position: relative;
+    background-color: rgba(138, 58, 137, 0.705);
+    color: white;
+    padding: 5px;
+}
+
+#présentation figure figcaption h3{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+#présentation figure figcaption p{
+    margin-left: 5%;
+}
+
+#présentation figure{
+    width: 70%;
+    height: 20vh;
+}
+
+#présentation figure img{
+    width: 100%;
+}
+/* mise en place de la grosse figure */
+.solo{
+    margin-left: 36%;
+    margin-top: 20%;
+}
+
+.solo i.fas.fa-palette{
+    position: relative;
+    bottom: 20%;
+    font-size: 25px;
+    background-color: rgb(0, 74, 158);
+    padding:3%;
+    color: white;
+    z-index: 2;
+}
+/*hover figcaption */
+#présentation figure figcaption:hover{
+    background-color: rgba(199, 107, 54, 0.705);
+}
+
+
+/* mise en place de la grille */
+#gridglobal{
+    width: 100%;
+    display: flex;
+    height: 20vh;
+    margin-left: 15%;
+}
+
+/* variation des hauteur de colonne */
+.left{
+    margin-bottom: 30%;
+}
+
+.right {
+    margin-top: 15%;
+}
+/* mise en place des icônes */
+/* couleur du fond de l'icône pc */
+.left i.fas.fa-desktop{
+    position: relative;
+    bottom: 15%;
+    font-size: 25px;
+    background-color: rgb(0, 74, 158);
+    padding:3%;
+    color: white;
+    z-index: 2;
+}
+
+.right i.fas.fa-desktop{
+    position: relative;
+    bottom: 15%;
+    font-size: 25px;
+    background-color: rgb(0, 74, 158);
+    padding:3%;
+    color: white;
+    z-index: 2;
+}
+
+.left i{
+    position: relative;
+    bottom: 15%;
+    font-size: 25px;
+    background-color: #C76C36;
+    padding:3%;
+    color: white;
+    z-index: 2;
+}
+
+.right i{
+    position: relative;
+    bottom: 15%;
+    font-size: 25px;
+    background-color: #C76C36;
+    padding:3%;
+    color: white;
+    z-index: 2;
+}
+
+/* couleur du fond de l'icône palette */
+.right i.fas.fa-palette{
+    position: relative;
+    bottom: 15%;
+    font-size: 25px;
+    background-color: rgb(0, 117, 59);
+    padding:3%;
+    color: white;
+    z-index: 2;
+}
+
+.left i.fas.fa-palette{
+    position: relative;
+    bottom: 15%;
+    font-size: 25px;
+    background-color: rgb(0, 117, 59);
+    padding:3%;
+    color: white;
+    z-index: 2;
+}
+
+/* couleur du fond de l'icône boite*/
+.right i.fas.fa-box{
+    position: relative;
+    bottom: 15%;
+    font-size: 25px;
+    background-color: rgb(148, 2, 2);
+    padding:3%;
+    color: white;
+    z-index: 2;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+#grid figure figcaption{
+    z-index: 1;
+    bottom: 23%;
+    position: relative;
+    background-color: rgba(138, 58, 137, 0.705);
+    color: white;
+    padding: 5px;
+}
+
+#grid figure figcaption h3{
+    margin-left: 5%;
+}
+
+#grid figure figcaption p{
+    margin-left: 5%;
+}
+
+#grid figure{
+    width: 70%;
+    height: 20vh;
+}
+
+#grid figure img{
+    width: 100%;
+}
+
+/*hover figcaption */
+#grid figure figcaption:hover{
+    background-color: rgba(199, 107, 54, 0.705);
+}
+
+/* before figcaption catégorie */
+figcaption p::before{
+    content: '•';
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    transform: translate3d(0, -10%, 0);
+    margin-right: .5em;
+}
+/* suppression du texte décoration  sur les colonnes */
+.liencolonne{
+    text-decoration: none;
+}
+
+/* création des flèches pour changer de page */
+#fleched{
+    position: absolute;
+    bottom: 5%;
+    left: 93%;
+    background-color: #C76C36;
+    padding: 0.8% 1% 0.8% 1%;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;    
+}
+
+#flecheg{
+    position: absolute;
+    bottom: 5%;
+    left: 88%;
+    background-color: #C76C36;
+    padding: 0.8% 1% 0.8% 1%;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+}
+/* mise en place de la navigation sociaux */
+#sociaux {
+    width: 20%;
+    height: 100vh;
+    position: absolute;
+    bottom: 0;
+}
+#sociaux ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 25px;
+    list-style: none;
+    transform: rotate(270deg);
+    position: absolute;
+    bottom: 20%;
+}
+
+#sociaux ul i{
+    color: #C76C36;
+}
+
+#sociaux ul li{
+    text-transform: uppercase;
+}
+/*hover icônes */
+#sociaux ul i:hover{
+    color: #8A3A89;
+}
+
+/* barre de nav à gauche */
+aside#prec{
+    height: 100vh;
+    position: absolute;
+    left: 0;
+}
+
+#prec{ 
+    width: 10%;
+    position: absolute;
+    bottom: 0;
+    transition-duration: 1s;
+}
+
+#prec li{
+    position: absolute;
+    bottom: 49vh;
+    width: 100%;
+    list-style: none;
+    justify-content: center;
+    transform: rotate(-270deg);
+}
+
+#cliquable2{
+    text-decoration: none;
+    color: #8A3A89;
+    font-size: 25px;
+}
+
+/* réalisation du hover sur la barre de droite */
+#prec:hover{
+    background-color: #8A3A89;
+    width: 10%;
+}
+
+#cliquable2:hover{
+    color: white;
+}
+
+/* mise en place du footer */
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer nav ul {
+    width: 50%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: rgba(255, 255, 255, 0.616);
+    border-bottom: 3px solid #C76C36 ;
+}
+
+footer nav ul li{
+    color: black;
+    text-align: center;
+    margin-left: 5%;
+}
+
+footer nav ul li a{
+    font-size: 20px;
+}
+/* after de la page active dans le menu */
+#active::after{
+    content: '▲';
+    height: 1.5vh;
+    display: block;
+    color: #8A3A89;
+}
