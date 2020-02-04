@@ -23,7 +23,8 @@ body{
 }
 
 main{
-    height: 100vh;
+    max-height: 100vh;
+    display: flex;
 }
 /* mise en place de la nav */
 nav{
@@ -103,7 +104,7 @@ nav ul li a img{
 
 /* texte de présentation */
 #partdroite{
-    width: 100%;
+    width: 50%;
     display: flex;
 }
 
@@ -143,36 +144,10 @@ nav ul li a img{
     list-style: none;
 }
 
-/* design du bouton homme */
-#boutonhome{
-    margin-left: 25%;
-    text-transform: uppercase;
-    padding: 1% 2% 1% 2%;
-    width: 20%;
-    background-color: #8A3A89;
-    text-align: center;
-}
-
-#bclic{
-    text-decoration: none;
-}
-
-#boutonhome p{
-    color: white;
-    text-decoration: none;
-    width: 100%;
-    font-size: 20px;
-}
-
-/* réalisation du hover bouton home */
-#boutonhome:hover{
-    background-color: #C76C36;
-}
-
 /* mise en place de la grille */
 #gridglobal{
     margin-right: 10%;
-    width: 100%;
+    width: 50%;
     display: flex;
     height: 20vh;
 }

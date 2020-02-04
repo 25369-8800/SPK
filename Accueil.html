@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +15,8 @@
         <!--Mise en place de la navigation-->
         <nav>
             <ul>
-                <li><a href="/Accueil.html"><img src="./Assets/Images/logo_Plan de travail 1.png" alt="mon logo"></a></li>
+                <li><a href="/Accueil.html"><img src="./Assets/Images/logo_Plan de travail 1.png" alt="mon logo"></a>
+                </li>
                 <li><a href="#">Partenaire</a></li>
                 <li><a href="#"> Contact</a></li>
                 <li id="bmenu"><a href="#"><i class="far fa-envelope"></i>Infolettre</a></li>
@@ -24,6 +24,7 @@
         </nav>
     </header>
     <!--Texte de présentation-->
+    <main>
     <div id="partdroite">
         <div id="présentation">
             <h1>Un métier, une passion</h1><br><br>
@@ -43,87 +44,81 @@
                 <a href="https://apollo13.co/"><img src="./Assets/Images/logo3.svg" alt="Logo Apollo"></a>
                 <a href="#"><img src="./Assets/Images/logo4.svg" alt="Logo académie"></a>
             </ul>
-            <!--création du bouton home-->
-            <a id="bclic" href="#">
-                <div id="boutonhome">
-                    <p>En détail</p>
+    </div>
+    </div>
+    <!--Création de la grille composée de figure et figcaption-->
+    <section id="gridglobal">
+        <div id="grid">
+            <figure class="left">
+                <a href="#" class="liencolonne"> <img src="/Assets/Images/col1.jpeg" alt="Image rétrospective">
+                    <i class="fas fa-desktop"></i>
+                    <figcaption>
+                        <h3>Webdesigner : Site pour un <br>auteur amateur</h3>
+                        <p>Webdesign</p>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure class="right">
+                <a href="#" class="liencolonne"><img src="/Assets/Images/col3.jpeg" alt="Image citation">
+                    <i class="fas fa-pen"></i>
+                    <figcaption>
+                        <h3>Création textile : Fahel</h3>
+                        <p>Textile</p>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure class="left">
+                <a href="http://" class="liencolonne"><img src="/Assets/Images/col2.jpg" alt="Photo séminaire">
+                    <i class="fas fa-pen"></i>
+                    <figcaption>
+                        <h3>Identité visuelle : Frimoosth</h3>
+                        <p>Conception Graphique</p>
+                    </figcaption>
+                </a>
+            </figure>
+            <figure class="right">
+                <a href="#" class="liencolonne"><img src="/Assets/Images/col4.jpg" alt="Photo en mouvement">
+                    <i class="fas fa-pen"></i>
+                    <figcaption>
+                        <h3>Packaging : GreenBullit</h3>
+                        <p>Packaging</p>
+                    </figcaption>
+                </a>
+            </figure>
+            <!--2ème bouton de la page d'accueil-->
+            <a id="bclic2" href="#">
+                <div id="boutonhome2">
+                    <p><i class="far fa-eye"></i>Voir plus</p>
                 </div>
             </a>
         </div>
-        <!--Création de la grille composée de figure et figcaption-->
-        <section id="gridglobal">
-            <div id="grid">
-                <figure class="left">
-                    <a href="#" class="liencolonne"> <img src="/Assets/Images/col1.jpeg" alt="Image rétrospective">
-                        <i class="fas fa-desktop"></i>
-                        <figcaption>
-                            <h3>Webdesigner : Site pour un <br>auteur amateur</h3>
-                            <p>Webdesign</p>
-                        </figcaption>
-                    </a>
-                </figure>
-                <figure class="right">
-                    <a href="#" class="liencolonne"><img src="/Assets/Images/col3.jpeg" alt="Image citation">
-                        <i class="fas fa-pen"></i>
-                        <figcaption>
-                            <h3>Création textile : Fahel</h3>
-                            <p>Textile</p>
-                        </figcaption>
-                    </a>
-                </figure>
-                <figure class="left">
-                    <a href="http://" class="liencolonne"><img src="/Assets/Images/col2.jpg" alt="Photo séminaire">
-                        <i class="fas fa-pen"></i>
-                        <figcaption>
-                            <h3>Identité visuelle : Frimoosth</h3>
-                            <p>Conception Graphique</p>
-                        </figcaption>
-                    </a>
-                </figure>
-
-                <figure class="right">
-                    <a href="#" class="liencolonne"><img src="/Assets/Images/col4.jpg" alt="Photo en mouvement">
-                        <i class="fas fa-pen"></i>
-                        <figcaption>
-                            <h3>Packaging : GreenBullit</h3>
-                            <p>Packaging</p>
-                        </figcaption>
-                    </a>
-                </figure>
-                <!--2ème bouton de la page d'accueil-->
-                <a id="bclic2" href="#">
-                    <div id="boutonhome2">
-                        <p><i class="far fa-eye"></i>Voir plus</p>
-                    </div>
-                </a>
-            </div>
-        </section>
-
-        <!--Création de la navigation de barre des réseaux-->
-        <aside id="sociaux">
-            <ul>
-                <li>Nous suivre </li>
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-            </ul>
+    </section>
+    <!--Création de la navigation de barre des réseaux-->
+    <aside id="sociaux">
+        <ul>
+            <li>Nous suivre </li>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </aside>
+    <a id="cliquable" href="/Prestation.html">
+        <aside id="psuiv">
+            <li>Prestations ▼</li>
         </aside>
-        <a id="cliquable" href="/Prestation.html">
-            <aside id="psuiv">
-                <li>Prestations ▼</li>
-            </aside>
-        </a>
-        <!--Création de la barre de navigation en bas-->
-        <footer>
-            <nav>
-                <ul>
-                    <li><a href="/Accueil.html" id="active">Accueil</a></li>
-                    <li><a href="/Prestation.html">Prestations</a></li>
-                    <li><a href="Portfolio.html">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </footer>
+    </a>
+    <!--Création de la barre de navigation en bas-->
+</main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="/Accueil.html" id="active">Accueil</a></li>
+                <li><a href="/Prestation.html">Prestations</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
 </body>
 
 </html>
